@@ -1,0 +1,51 @@
+TC ID,Test Case Description,Expected Result,Status
+TC_001,To check functionality of app name is displayed Production Data Collection title,"App should be visible""title"" ",Pass 
+TC_002,To check functionality of button displayed + Specimen,"App should be display ""+Specimen"" ",Pass 
+TC_003,To check functionality of Dome dropdown menu,"App should be display ""Dome""  dropdown menu ",Pass 
+TC_004,To check functionality of click button Dome ,"App should be click ""Dome button"" ",Pass 
+TC_005,To check functionality of Harvesting card button,"App should be display ""Harvesting"" button ",Pass 
+TC_006,To check functionality of Media Moisture card displayed,"App should be display ""Moisture"" displayed",Pass 
+TC_007,To check functionality of Media  Moisture card button,"App should be click Media Moisture button""",Pass 
+TC_008,To check functionality of section displayed,"App should be display ""section"" properly",Pass 
+TC_009,To check functionality of access  Specimen icon,"App should be access ""Specimen"" icon",Pass 
+TC_010,To check functionality of access Harvesting icon,"App should be access ""Harvesting"" icon",Pass 
+TC_011,To check functionality of access Media Moisture,"App should be access ""Media Moisture"" icon",Pass 
+TC_012,To check functionality of back display navigated arrow,"App should be display ""Navigated arrow"" field",Pass 
+TC_013,To check functionality of display drop down menu ,"App should be display ""Drop  down menu"" ",Pass 
+TC_014,To check functionality of display submitted  tag,"App should be display""Submitted tag""",Pass 
+TC_015,To check functionality of  display add button ,"App should be display ""add button"" field",Pass 
+TC_016,To check functionality of  display domes details Add Harvesting,"App should be display "" domes details"" add Harvesting",Pass 
+TC_017,To check functionality of display  Line details Add Harvesting,"App should be display "" Line details"" Add Harvesting",Pass 
+TC_018,To check functionality of display Total Weight A Add Harvesting  Grade A ,"App should be display ""Total Weight A"" Add Harvesting Grade A",Pass 
+TC_019,To check functionality of display Excess Weight  Add Harvesting  Grade A ,"App should be display ""Excess Weight A"" Add Harvesting Gade A",Pass 
+TC_020,To check functionality of display Loose Weight A Add Harvesting GradeA,"App should be display ""Loose Weight A"" Add Harvesting Gade A",Pass 
+TC_021,To check functionality of display Total Bags A Add Harvesting GradeA,"App should be display ""Total Bags A"" Add Harvesting GradeA",Pass 
+TC_022,To check functionality of display Total Weight B Add Harvesting  Grade B ,"App should be display ""Total Weight B"" Add Harvesting Grade B",Pass 
+TC_023,To check functionality of display Excess Weight B Add Harvesting  Grade B,"App should be display ""Excess Weight B"" Add Harvesting Gade B",Pass 
+TC_024,To check functionality of display Loose Weight b  Add Harvesting Grade B,"App should be display ""Loose Weight b"" Add Harvesting Gade B",Pass 
+TC_025,To check functionality of display Total Bags B Add Harvesting Grade B,"App should be display ""Total Bags B"" Add Harvesting GradeB",Pass 
+TC_026,To check functionality of display Total Weight C Add Harvesting  Grade C ,"App should be display ""Total Weight C"" Add Harvesting Grade C",Pass 
+TC_027,To check functionality of display Excess Weight C Add Harvesting  Grade C,"App should be display ""Excess Weight C"" Add Harvesting Gade C",Pass 
+TC_028,To check functionality of display Loose Weight C Add Harvesting Grade C,"App should be display ""Loose Weight C"" Add Harvesting Gade C",Pass 
+TC_029,To check functionality of display Total Bags C Add Harvesting Grade C,"App should be display ""Total Bags C "" Add Harvesting Grade C",Pass 
+TC_030,To check functionality of display Total Weight D Add Harvesting  Grade D,"App should be display ""Total Weight D"" Add Harvesting Grade D",Pass 
+TC_031,To check functionality of display Excess Weight D Add Harvesting  Grade D,"App should be display ""Excess Weight D"" Add Harvesting Gade D",Pass 
+TC_032,To check functionality of display Loose Weight D Add Harvesting Grade D,"App should be display ""Loose Weight D"" Add Harvesting Gade D",Pass 
+TC_033,To check functionality of display Total Bags D Add Harvesting Grade D,"App should be display ""Total Bags D"" Add Harvesting Grade D",Pass 
+TC_034,To check functionality of display Brix Value Extra Details Add Harvesting,"App should be display ""Brix Value"" Extra Details Add Harvesting",Pass 
+TC_035,To check functionality of display Remarks Extra Details  Add Harvesting,"App should be display  ""Remarks"" Extra Details  Add Harvesting",Pass 
+TC_036,To check functionality of click submit button Add Harvesting ,"App should be click ""submit""  button Add Harvesting",Pass 
+TC_037,To check functionality of click cancel button Add Harvesting ,"App should be  click ""cancel"" button Add Harvesting",Pass 
+TC_038,To check functionality of display Dome Add Media Moisture ,"App should be display ""Dome""Add Media Moisture",Pass 
+TC_039,To check functionality of display EC Add Media  Moisture,"App should be display ""EC"" Add Media Moisture",Pass 
+TC_040,To check functionality of display Section Add Media Moisture ,"App should be display ""Section""Add Media Moisture ",Pass 
+TC_041,To check functionality of display Moisture Add Media Moisture ,"App should be display ""Add Media  Moisture""",Pass 
+TC_042,To check functionality of display Temperature Add Media Moisture,"App should be display ""Temperature"" Add  Media  Moisture",Pass 
+TC_043,To check functionality of click submit button Add  Media Moisture,"App should be click ""submit""  button  Media Moisture",Pass 
+TC_044,To check functionality of click cancel button Add Media Moisture,"App should be  click ""cancel"" button  Media Moisture",Pass 
+TC_045,To check functionality of display Dome Create Speciman Add Specimen,"App should be display ""Dome"" Create Speciman Add Specimen",Pass 
+TC_046,To check functionality of display Line Create Speciman Add Specimen,"App should be display ""Line"" Create Speciman Add Specimen",Pass 
+TC_047,To check functionality of display Set Create Speciman Add Specimen,"App should be display ""Set"" Create Speciman Add Specimen",Pass 
+TC_048,To check functionality of display Chamber Create Speciman Add Specimen,"App should be display ""Chamber"" Create Speciman Add Specimen",Pass 
+TC_049,To check functionality of display Position Create Speciman Add Specimen,"App should be display ""Position"" Create Speciman Add Specimen",Pass 
+TC_050,To check functionality of click  Submit button Create Speciman Add Specimen,"App should be click ""Submit button"" Create Speciman Add Specimen",Pass 
