@@ -1,0 +1,46 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+public class CreateRecordsAndSubmit {
+
+    WebDriver driver;
+
+    @BeforeClass
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        driver = new ChromeDriver();
+        driver.get("https://example.com/form"); // Replace with actual URL
+        driver.manage().window().maximize();
+    }
+
+    @Test
+    public void createFiftyRecordsAndSubmit() {
+        for (int i = 1; i <= 50; i++) {
+            // Enter name
+            WebElement nameField = driver.findElement(By.id("inputName"));
+            nameField.clear();
+            nameField.sendKeys("Test User " + i);
+
+            // Enter email
+            WebElement emailField = driver.findElement(By.id("inputEmail"));
+            emailField.clear();
+            emailField.sendKeys("testuser" + i + "@example.com");
+
+            // Click "Add Record" button
+            WebElement addButton = driver.findElement(By.id("addRecordButton")); // adjust the locator
+            addButton.click();
+        }
+
+        // After adding 50 records, click Submit CTA
+        WebElement submitButton = driver.findElement(By.id("submitButton")); // adjust the locator
+        submitButton.click();
+    }
+
+    @AfterClass
+    public void tearDown() {
+        driver.quit();
+    }
+}
